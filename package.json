@@ -1,0 +1,19 @@
+{
+  "name": "spotify-network-metadata-extractor",
+  "version": "1.0.0",
+  "description": "Network-first Spotify Web title extractor for search results.",
+  "main": "spotify-network-scraper.js",
+  "bin": {
+    "spotify-network-scraper": "./spotify-network-scraper.js"
+  },
+  "scripts": {
+    "scrape": "node spotify-network-scraper.js"
+  },
+  "dependencies": {
+    "playwright": ">=1.40.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
