@@ -50,6 +50,12 @@ Use a larger result surface by keeping the page zoomed out:
 node spotify-network-scraper.js --query "alien contact stories" --where audiobook --zoom 30 --limit 100 --debug
 ```
 
+Or
+
+```bash
+node spotify-network-scraper.js --query "alien contact stories" --where audiobook --zoom 30 --extract-on-starup=true --limit 100 --debug
+```
+
 ## Search Locations
 
 Use `--where` to choose the Spotify search tab:
